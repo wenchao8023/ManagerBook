@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ManagerBook_Example' do
+  pod 'ManagerBook', :path => '../'
+
+  target 'ManagerBook_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
