@@ -13,8 +13,9 @@
 		4456A35B03BA7F3741FAA837799A61C7 /* Pods-ManagerBook_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1ED323EE4A881CAA65EC64F97290E /* Pods-ManagerBook_Tests-dummy.m */; };
 		496B77087928C92B2A13D61C2FFA28E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		929ADE356368ED871262A451E15CFB96 /* Pods-ManagerBook_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EABCF779957A53DE2C6CAB858B2C68 /* Pods-ManagerBook_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9439983F2654F1C90073DBB9 /* ManagerBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9439983D2654F1C90073DBB9 /* ManagerBookVC.h */; };
+		943998402654F1C90073DBB9 /* ManagerBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439983E2654F1C90073DBB9 /* ManagerBookVC.m */; };
 		D84B2B55329ECC392369C362A979E9E4 /* Pods-ManagerBook_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBC2FC8EA16487431848449A7AA81AF /* Pods-ManagerBook_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DECF6DCBC13BD946EA0D1F0F3CAB335A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB622E645E9182625B52D84F05780A /* ReplaceMe.m */; };
 		E30BB8CD31949451600D18133E7F25FC /* ManagerBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3446B42C0D65189C71365FA739E79 /* ManagerBook-dummy.m */; };
 		F2D07BE3AF609ED5575187BD8CC3EBA4 /* Pods-ManagerBook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECFE3BB852BD01B64827C145EE967A8 /* Pods-ManagerBook_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		0A4319A1AE72AE6AD896A49425B8AB59 /* ManagerBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManagerBook.modulemap; sourceTree = "<group>"; };
 		0BA6AF2F35EB7711657BDF2FE45F12B4 /* Pods-ManagerBook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ManagerBook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C365D88645806157CCBDC5D0C2E8738 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C365D88645806157CCBDC5D0C2E8738 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11C27E9E7293F0E2EFFAFA64400ED26F /* ManagerBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ManagerBook-Info.plist"; sourceTree = "<group>"; };
 		18A3446B42C0D65189C71365FA739E79 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
 		2DA64171EC5142EABF9D3C353C94F100 /* Pods-ManagerBook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ManagerBook_Example.modulemap"; sourceTree = "<group>"; };
@@ -52,24 +53,25 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		762FB5EC40484A6E05ACCC6FEC1D30C3 /* Pods-ManagerBook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Tests-Info.plist"; sourceTree = "<group>"; };
 		7D5C0F88F746EC664A65584FF505F32B /* Pods-ManagerBook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9439983D2654F1C90073DBB9 /* ManagerBookVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
+		9439983E2654F1C90073DBB9 /* ManagerBookVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ManagerBookVC.m; path = ManagerBook/Classes/ManagerBookVC.m; sourceTree = "<group>"; };
 		9AA1ED323EE4A881CAA65EC64F97290E /* Pods-ManagerBook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ManagerBook_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADD12047090352DB7E165EC865B94371 /* Pods-ManagerBook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ManagerBook_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ManagerBook_Example.framework; path = "Pods-ManagerBook_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9419B0BFA53C9B0CCA7986792CC3CF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C5724FB09F25F497645D086EAF3BB56B /* ManagerBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ManagerBook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9419B0BFA53C9B0CCA7986792CC3CF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C5724FB09F25F497645D086EAF3BB56B /* ManagerBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ManagerBook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAF1573F6E927524BAE825B16CDB3DF8 /* Pods-ManagerBook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB060EB428C2C8ABB7E474B2C4A5EAC7 /* Pods-ManagerBook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB1CF7D882F8F718FBE60002E6319586 /* Pods-ManagerBook_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ManagerBook_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4E2C1AA6DFBB9D5F13872D0E1FB5C9 /* Pods-ManagerBook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDBC2FC8EA16487431848449A7AA81AF /* Pods-ManagerBook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ManagerBook_Example-umbrella.h"; sourceTree = "<group>"; };
 		DA05887DD81A9269BE1BE57A788DE327 /* Pods-ManagerBook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Example-Info.plist"; sourceTree = "<group>"; };
-		E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ManagerBook_Tests.framework; path = "Pods-ManagerBook_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E609E432C29552F45B3855CA2BA6BDD3 /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
 		E7877ACF5380EA0E4AAF1E0CD0362C1C /* ManagerBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-umbrella.h"; sourceTree = "<group>"; };
-		E9CB622E645E9182625B52D84F05780A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ManagerBook/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EECFE3BB852BD01B64827C145EE967A8 /* Pods-ManagerBook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ManagerBook_Example-dummy.m"; sourceTree = "<group>"; };
-		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ManagerBook.framework; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +122,10 @@
 		587345C86F2CABF30942C4309B7D04A9 /* ManagerBook */ = {
 			isa = PBXGroup;
 			children = (
-				E9CB622E645E9182625B52D84F05780A /* ReplaceMe.m */,
 				5FE1D3768130F38FBD9E5C47596E790C /* Pod */,
 				C90526ADF7CF534B7977F9BEF4E6C236 /* Support Files */,
+				9439983D2654F1C90073DBB9 /* ManagerBookVC.h */,
+				9439983E2654F1C90073DBB9 /* ManagerBookVC.m */,
 			);
 			name = ManagerBook;
 			path = ../..;
@@ -246,6 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9439983F2654F1C90073DBB9 /* ManagerBookVC.h in Headers */,
 				41DB941397876277DA75BE8A2AE856BE /* ManagerBook-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E30BB8CD31949451600D18133E7F25FC /* ManagerBook-dummy.m in Sources */,
-				DECF6DCBC13BD946EA0D1F0F3CAB335A /* ReplaceMe.m in Sources */,
+				943998402654F1C90073DBB9 /* ManagerBookVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,8 +690,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
