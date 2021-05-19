@@ -1,0 +1,6 @@
+framework module ManagerBook {
+  umbrella header "ManagerBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

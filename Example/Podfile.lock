@@ -1,0 +1,16 @@
+PODS:
+  - ManagerBook (0.1.0)
+
+DEPENDENCIES:
+  - ManagerBook (from `../`)
+
+EXTERNAL SOURCES:
+  ManagerBook:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ManagerBook: 4ec2734ff0862fa4030e8bf633e7e3fcfed654b4
+
+PODFILE CHECKSUM: 0ce373fbc71f5aafe51f14bd055ca8655b5f2166
+
+COCOAPODS: 1.10.1
