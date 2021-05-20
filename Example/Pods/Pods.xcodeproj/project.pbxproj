@@ -7,87 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184378A6AFEB5933598637C58E1F6296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		380657ECD71C8CDE442F557B8F373840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		41DB941397876277DA75BE8A2AE856BE /* ManagerBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7877ACF5380EA0E4AAF1E0CD0362C1C /* ManagerBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		016166E82C13D8488AD929674422FEF7 /* ManagerBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E4F73B945684373182F7960F060D5 /* ManagerBook-dummy.m */; };
+		184378A6AFEB5933598637C58E1F6296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */; };
+		22678AFB0569030AA0997391D21147E3 /* ManagerBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F80201BDDA6002A6968DFE29D3CF9EE /* ManagerBookVC.m */; };
+		3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4439BEB8535B491F3B4D2091D5FEE44D /* Pods-ManagerBook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECFE3BB852BD01B64827C145EE967A8 /* Pods-ManagerBook_Example-dummy.m */; };
 		4456A35B03BA7F3741FAA837799A61C7 /* Pods-ManagerBook_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1ED323EE4A881CAA65EC64F97290E /* Pods-ManagerBook_Tests-dummy.m */; };
-		496B77087928C92B2A13D61C2FFA28E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */; };
+		4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		542CCE7628EBF5524E1EB829893E4312 /* ManagerBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5931825C8142F191D5A3CABD478858 /* ManagerBookVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA7FF8376D6621667BEBEEACE1F7E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */; };
+		69B61193218731833D94A63CD9010166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */; };
+		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */; };
+		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */; };
 		929ADE356368ED871262A451E15CFB96 /* Pods-ManagerBook_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EABCF779957A53DE2C6CAB858B2C68 /* Pods-ManagerBook_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9439983F2654F1C90073DBB9 /* ManagerBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9439983D2654F1C90073DBB9 /* ManagerBookVC.h */; };
-		943998402654F1C90073DBB9 /* ManagerBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439983E2654F1C90073DBB9 /* ManagerBookVC.m */; };
-		D84B2B55329ECC392369C362A979E9E4 /* Pods-ManagerBook_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBC2FC8EA16487431848449A7AA81AF /* Pods-ManagerBook_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E30BB8CD31949451600D18133E7F25FC /* ManagerBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3446B42C0D65189C71365FA739E79 /* ManagerBook-dummy.m */; };
-		F2D07BE3AF609ED5575187BD8CC3EBA4 /* Pods-ManagerBook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECFE3BB852BD01B64827C145EE967A8 /* Pods-ManagerBook_Example-dummy.m */; };
+		9C634E10EA57A0192CA499C979A9F776 /* ManagerBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30870EDF9BFA9487DACE78750886C513 /* ManagerBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */; };
+		C0ACAE6707A1821884B8F778A8AED237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */; };
+		D644B8AD3C88981B4C172EEEA789681E /* Pods-ManagerBook_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBC2FC8EA16487431848449A7AA81AF /* Pods-ManagerBook_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED342BAEC78611141FD9D5AE64AD0AA0 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55E376046E385ADC3FE29FCCD88B4003 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D2FB2C5EA1737DCFCCAEA7FD178536D;
-			remoteInfo = ManagerBook;
-		};
-		FDB9217890C95F14C9896DA444DBF58B /* PBXContainerItemProxy */ = {
+		2663CF73F238A5525AE938070C640069 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E68D30C8655C89139922150E2C2457E0;
 			remoteInfo = "Pods-ManagerBook_Example";
 		};
+		83B79F1A8CCFD5523972EB153CA47B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2FB2C5EA1737DCFCCAEA7FD178536D;
+			remoteInfo = ManagerBook;
+		};
+		B362C1BBF2755D92C4F9A4FDFFFDD1FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		EA0B0DE54753FF5DA8ACDF20718B82F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A4319A1AE72AE6AD896A49425B8AB59 /* ManagerBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManagerBook.modulemap; sourceTree = "<group>"; };
 		0BA6AF2F35EB7711657BDF2FE45F12B4 /* Pods-ManagerBook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ManagerBook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C365D88645806157CCBDC5D0C2E8738 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		11C27E9E7293F0E2EFFAFA64400ED26F /* ManagerBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ManagerBook-Info.plist"; sourceTree = "<group>"; };
-		18A3446B42C0D65189C71365FA739E79 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
+		0BCF78451357014DFF4D2346A25A38F9 /* ManagerBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.debug.xcconfig; sourceTree = "<group>"; };
+		1B4784F50B8A05BF978A475FC0841102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F4E4F73B945684373182F7960F060D5 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
 		2DA64171EC5142EABF9D3C353C94F100 /* Pods-ManagerBook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ManagerBook_Example.modulemap"; sourceTree = "<group>"; };
+		30870EDF9BFA9487DACE78750886C513 /* ManagerBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-umbrella.h"; sourceTree = "<group>"; };
 		3476CF7DCC2A4FCDC5BD05874AE041BC /* Pods-ManagerBook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		54D59711B53FAF26F7794D085DEE3178 /* ManagerBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.release.xcconfig; sourceTree = "<group>"; };
+		3972C90234D6B49C543AB5DAE75C522C /* ManagerBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.release.xcconfig; sourceTree = "<group>"; };
+		3DCA72FAA6DF50B01846A17CDDCB44AC /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		59EABCF779957A53DE2C6CAB858B2C68 /* Pods-ManagerBook_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ManagerBook_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5CA8E88B1AC6941FE9D762BB4504DC00 /* Pods-ManagerBook_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ManagerBook_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F939F6CD6FA56282CFE6E998A4425A3 /* ManagerBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.debug.xcconfig; sourceTree = "<group>"; };
 		5FD353E863ABFFC8AE1FA4EBE5E19661 /* Pods-ManagerBook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		762FB5EC40484A6E05ACCC6FEC1D30C3 /* Pods-ManagerBook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Tests-Info.plist"; sourceTree = "<group>"; };
+		78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		7C5931825C8142F191D5A3CABD478858 /* ManagerBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
 		7D5C0F88F746EC664A65584FF505F32B /* Pods-ManagerBook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9439983D2654F1C90073DBB9 /* ManagerBookVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
-		9439983E2654F1C90073DBB9 /* ManagerBookVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ManagerBookVC.m; path = ManagerBook/Classes/ManagerBookVC.m; sourceTree = "<group>"; };
+		8A3389E5E96A9804B1DC2989C34D2338 /* ManagerBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ManagerBook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		9AA1ED323EE4A881CAA65EC64F97290E /* Pods-ManagerBook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ManagerBook_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F80201BDDA6002A6968DFE29D3CF9EE /* ManagerBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ManagerBookVC.m; path = ManagerBook/Classes/ManagerBookVC.m; sourceTree = "<group>"; };
+		A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		ADD12047090352DB7E165EC865B94371 /* Pods-ManagerBook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ManagerBook_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9419B0BFA53C9B0CCA7986792CC3CF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C5724FB09F25F497645D086EAF3BB56B /* ManagerBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ManagerBook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ManagerBook_Example.framework; path = "Pods-ManagerBook_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA31F6C4DF68BBBE828A8005142525C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CAF1573F6E927524BAE825B16CDB3DF8 /* Pods-ManagerBook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB060EB428C2C8ABB7E474B2C4A5EAC7 /* Pods-ManagerBook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB1CF7D882F8F718FBE60002E6319586 /* Pods-ManagerBook_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ManagerBook_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4E2C1AA6DFBB9D5F13872D0E1FB5C9 /* Pods-ManagerBook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDBC2FC8EA16487431848449A7AA81AF /* Pods-ManagerBook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ManagerBook_Example-umbrella.h"; sourceTree = "<group>"; };
+		CEBA47D0EB32D69A572F8BACBCBC78E5 /* ManagerBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ManagerBook-Info.plist"; sourceTree = "<group>"; };
 		DA05887DD81A9269BE1BE57A788DE327 /* Pods-ManagerBook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Example-Info.plist"; sourceTree = "<group>"; };
-		E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E609E432C29552F45B3855CA2BA6BDD3 /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
-		E7877ACF5380EA0E4AAF1E0CD0362C1C /* ManagerBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-umbrella.h"; sourceTree = "<group>"; };
+		E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ManagerBook_Tests.framework; path = "Pods-ManagerBook_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		EA8F490FC2B0A3A5C47D6A98D08C0E15 /* ManagerBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManagerBook.modulemap; sourceTree = "<group>"; };
 		EECFE3BB852BD01B64827C145EE967A8 /* Pods-ManagerBook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ManagerBook_Example-dummy.m"; sourceTree = "<group>"; };
-		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDB2A52BF530C4376616756A788DF83 /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
+		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ManagerBook.framework; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3843FFFB6456992AF7A58F1720A5DA1C /* Frameworks */ = {
+		49EA995C986B60002A22D6388FD487DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380657ECD71C8CDE442F557B8F373840 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45C2BAFED96AB0CDBA6A54D71704A4CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				496B77087928C92B2A13D61C2FFA28E5 /* Foundation.framework in Frameworks */,
+				ED342BAEC78611141FD9D5AE64AD0AA0 /* CTMediator.framework in Frameworks */,
+				C0ACAE6707A1821884B8F778A8AED237 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +129,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		940918F4DFB0AF11EE4EB33E8A329CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA7FF8376D6621667BEBEEACE1F7E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F77C320AB1DB55D2B827CF850D9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */,
+				69B61193218731833D94A63CD9010166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044580F8969B98684A979ECD073CCB83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
+				FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */,
+				AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */,
+				E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12CE0CF9FED79A3D38D1EFB736BCEFB2 /* ManagerBook */ = {
+			isa = PBXGroup;
+			children = (
+				7C5931825C8142F191D5A3CABD478858 /* ManagerBookVC.h */,
+				9F80201BDDA6002A6968DFE29D3CF9EE /* ManagerBookVC.m */,
+				CB6ABA14F20834077B5A8EA32ACEBA0F /* Pod */,
+				908B583B4038093F22795E96B2B53B81 /* Support Files */,
+			);
+			name = ManagerBook;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		14FF256295A7CF79EFCF56AD18BBFFD0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */,
+				69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		20AA62AA1455B6458CCB9DF038FEB2D9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,44 +190,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		2EBE080A06F227AC473DEA346D1FF7CC /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */,
+				78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */,
+				4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */,
+				4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */,
+				BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */,
 			);
-			name = iOS;
+			name = CTMediator;
+			path = CTMediator;
 			sourceTree = "<group>";
 		};
-		587345C86F2CABF30942C4309B7D04A9 /* ManagerBook */ = {
+		36FCFD6E289DD8CBCCF198092E4B291D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5FE1D3768130F38FBD9E5C47596E790C /* Pod */,
-				C90526ADF7CF534B7977F9BEF4E6C236 /* Support Files */,
-				9439983D2654F1C90073DBB9 /* ManagerBookVC.h */,
-				9439983E2654F1C90073DBB9 /* ManagerBookVC.m */,
+				2EBE080A06F227AC473DEA346D1FF7CC /* CTMediator */,
 			);
-			name = ManagerBook;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		5FE1D3768130F38FBD9E5C47596E790C /* Pod */ = {
+		908B583B4038093F22795E96B2B53B81 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B9419B0BFA53C9B0CCA7986792CC3CF5 /* LICENSE */,
-				C5724FB09F25F497645D086EAF3BB56B /* ManagerBook.podspec */,
-				0C365D88645806157CCBDC5D0C2E8738 /* README.md */,
+				EA8F490FC2B0A3A5C47D6A98D08C0E15 /* ManagerBook.modulemap */,
+				1F4E4F73B945684373182F7960F060D5 /* ManagerBook-dummy.m */,
+				CEBA47D0EB32D69A572F8BACBCBC78E5 /* ManagerBook-Info.plist */,
+				FCDB2A52BF530C4376616756A788DF83 /* ManagerBook-prefix.pch */,
+				30870EDF9BFA9487DACE78750886C513 /* ManagerBook-umbrella.h */,
+				0BCF78451357014DFF4D2346A25A38F9 /* ManagerBook.debug.xcconfig */,
+				3972C90234D6B49C543AB5DAE75C522C /* ManagerBook.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ManagerBook";
 			sourceTree = "<group>";
 		};
-		6A5DE4BB178DB291AFB5618348D57A91 /* Products */ = {
+		936D8B2D1396787B21F2145EFEFE16F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */,
-				AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */,
-				E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */,
+				B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */,
+				14FF256295A7CF79EFCF56AD18BBFFD0 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9EE3D722D6EAA0634E49A7A047795DFF /* Pods-ManagerBook_Example */ = {
@@ -168,6 +252,21 @@
 			path = "Target Support Files/Pods-ManagerBook_Example";
 			sourceTree = "<group>";
 		};
+		BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA72FAA6DF50B01846A17CDDCB44AC /* CTMediator.modulemap */,
+				E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */,
+				A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */,
+				9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */,
+				8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */,
+				AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */,
+				B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
 		C3C041E116F074DE7E26622FB99B33C1 /* Pods-ManagerBook_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,44 +283,32 @@
 			path = "Target Support Files/Pods-ManagerBook_Tests";
 			sourceTree = "<group>";
 		};
-		C90526ADF7CF534B7977F9BEF4E6C236 /* Support Files */ = {
+		CB6ABA14F20834077B5A8EA32ACEBA0F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0A4319A1AE72AE6AD896A49425B8AB59 /* ManagerBook.modulemap */,
-				18A3446B42C0D65189C71365FA739E79 /* ManagerBook-dummy.m */,
-				11C27E9E7293F0E2EFFAFA64400ED26F /* ManagerBook-Info.plist */,
-				E609E432C29552F45B3855CA2BA6BDD3 /* ManagerBook-prefix.pch */,
-				E7877ACF5380EA0E4AAF1E0CD0362C1C /* ManagerBook-umbrella.h */,
-				5F939F6CD6FA56282CFE6E998A4425A3 /* ManagerBook.debug.xcconfig */,
-				54D59711B53FAF26F7794D085DEE3178 /* ManagerBook.release.xcconfig */,
+				1B4784F50B8A05BF978A475FC0841102 /* LICENSE */,
+				8A3389E5E96A9804B1DC2989C34D2338 /* ManagerBook.podspec */,
+				CAA31F6C4DF68BBBE828A8005142525C /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ManagerBook";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E249934F388A673265B9D9813089E59E /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6A5DE4BB178DB291AFB5618348D57A91 /* Products */,
+				EBB78C0E76140EE271068494C51C7ED3 /* Development Pods */,
+				936D8B2D1396787B21F2145EFEFE16F4 /* Frameworks */,
+				36FCFD6E289DD8CBCCF198092E4B291D /* Pods */,
+				044580F8969B98684A979ECD073CCB83 /* Products */,
 				20AA62AA1455B6458CCB9DF038FEB2D9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		EBB78C0E76140EE271068494C51C7ED3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E249934F388A673265B9D9813089E59E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				587345C86F2CABF30942C4309B7D04A9 /* ManagerBook */,
+				12CE0CF9FED79A3D38D1EFB736BCEFB2 /* ManagerBook */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -229,11 +316,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0EB9A184DADD70A53D6122C2A11701E3 /* Headers */ = {
+		115E7C8ACA06CBE361419777676B9C48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D84B2B55329ECC392369C362A979E9E4 /* Pods-ManagerBook_Example-umbrella.h in Headers */,
+				6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */,
+				3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */,
+				4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,12 +334,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35DBFE9B90B93AF087DA022ECC5C0911 /* Headers */ = {
+		37121BE0F0FC23B00F09CACC82B77E06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9439983F2654F1C90073DBB9 /* ManagerBookVC.h in Headers */,
-				41DB941397876277DA75BE8A2AE856BE /* ManagerBook-umbrella.h in Headers */,
+				D644B8AD3C88981B4C172EEEA789681E /* Pods-ManagerBook_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF54D9D4EA3D9306F0257DDB6D4FDD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C634E10EA57A0192CA499C979A9F776 /* ManagerBook-umbrella.h in Headers */,
+				542CCE7628EBF5524E1EB829893E4312 /* ManagerBookVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,20 +356,39 @@
 /* Begin PBXNativeTarget section */
 		2D2FB2C5EA1737DCFCCAEA7FD178536D /* ManagerBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53F3F2D6F8D2BBEA19EB5ACD7E8F5F5A /* Build configuration list for PBXNativeTarget "ManagerBook" */;
+			buildConfigurationList = 0461E8569F6ED4D4AB9A696BE7C0D2C3 /* Build configuration list for PBXNativeTarget "ManagerBook" */;
 			buildPhases = (
-				35DBFE9B90B93AF087DA022ECC5C0911 /* Headers */,
-				BF65D687314B62F434BC991C8B706735 /* Sources */,
-				3843FFFB6456992AF7A58F1720A5DA1C /* Frameworks */,
-				23839C2C4C9B1F9706238FE85FB75FC2 /* Resources */,
+				ADF54D9D4EA3D9306F0257DDB6D4FDD3 /* Headers */,
+				1E033C962A9B7CFCA0BF3C1E727BD663 /* Sources */,
+				49EA995C986B60002A22D6388FD487DE /* Frameworks */,
+				F7F9C1D4B57CCD744222D543F264DDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F36260B66731F09DB43AAD163881C39 /* PBXTargetDependency */,
+			);
+			name = ManagerBook;
+			productName = ManagerBook;
+			productReference = FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				115E7C8ACA06CBE361419777676B9C48 /* Headers */,
+				F699361B098428FA5FA9F768BF848938 /* Sources */,
+				C49F77C320AB1DB55D2B827CF850D9A6 /* Frameworks */,
+				A697C861232D981D33BAA24BF4F99825 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ManagerBook;
-			productName = ManagerBook;
-			productReference = FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */;
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8090764C42968D2F692871FBF4ABE7AF /* Pods-ManagerBook_Tests */ = {
@@ -287,7 +403,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5B7AD94DD701931CFD2EEFB6D84DE8AB /* PBXTargetDependency */,
+				97D16FF41BD1C4D07D34C083CE5C9F8B /* PBXTargetDependency */,
 			);
 			name = "Pods-ManagerBook_Tests";
 			productName = "Pods-ManagerBook_Tests";
@@ -296,17 +412,18 @@
 		};
 		E68D30C8655C89139922150E2C2457E0 /* Pods-ManagerBook_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63E79601B991CE8C13E64F7DCB0E1B75 /* Build configuration list for PBXNativeTarget "Pods-ManagerBook_Example" */;
+			buildConfigurationList = 97A4AA9351279596317145193CFACA3E /* Build configuration list for PBXNativeTarget "Pods-ManagerBook_Example" */;
 			buildPhases = (
-				0EB9A184DADD70A53D6122C2A11701E3 /* Headers */,
-				314F9A5FD6E5577AD80577261C6ED52B /* Sources */,
-				45C2BAFED96AB0CDBA6A54D71704A4CA /* Frameworks */,
-				E4A6E66922AAA2B062EF0C30BC7EE9A6 /* Resources */,
+				37121BE0F0FC23B00F09CACC82B77E06 /* Headers */,
+				2B9DD20C296EA11C2F84CFBADDC33723 /* Sources */,
+				940918F4DFB0AF11EE4EB33E8A329CB1 /* Frameworks */,
+				7F4D3C86069205B6594A424DFD645EFD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2049944EA80F1C6A8D2A80C6E29742A9 /* PBXTargetDependency */,
+				7A0F97C1B530BEEEDE5A3DD81324D176 /* PBXTargetDependency */,
+				395C00FC36AFD87D48ABD99C9A97B427 /* PBXTargetDependency */,
 			);
 			name = "Pods-ManagerBook_Example";
 			productName = "Pods-ManagerBook_Example";
@@ -331,10 +448,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6A5DE4BB178DB291AFB5618348D57A91 /* Products */;
+			productRefGroup = 044580F8969B98684A979ECD073CCB83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				2D2FB2C5EA1737DCFCCAEA7FD178536D /* ManagerBook */,
 				E68D30C8655C89139922150E2C2457E0 /* Pods-ManagerBook_Example */,
 				8090764C42968D2F692871FBF4ABE7AF /* Pods-ManagerBook_Tests */,
@@ -343,7 +461,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23839C2C4C9B1F9706238FE85FB75FC2 /* Resources */ = {
+		7F4D3C86069205B6594A424DFD645EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A697C861232D981D33BAA24BF4F99825 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,7 +482,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4A6E66922AAA2B062EF0C30BC7EE9A6 /* Resources */ = {
+		F7F9C1D4B57CCD744222D543F264DDB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,6 +492,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E033C962A9B7CFCA0BF3C1E727BD663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016166E82C13D8488AD929674422FEF7 /* ManagerBook-dummy.m in Sources */,
+				22678AFB0569030AA0997391D21147E3 /* ManagerBookVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28C2E56C08342A5CB002746422A49F80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,44 +509,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		314F9A5FD6E5577AD80577261C6ED52B /* Sources */ = {
+		2B9DD20C296EA11C2F84CFBADDC33723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D07BE3AF609ED5575187BD8CC3EBA4 /* Pods-ManagerBook_Example-dummy.m in Sources */,
+				4439BEB8535B491F3B4D2091D5FEE44D /* Pods-ManagerBook_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF65D687314B62F434BC991C8B706735 /* Sources */ = {
+		F699361B098428FA5FA9F768BF848938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E30BB8CD31949451600D18133E7F25FC /* ManagerBook-dummy.m in Sources */,
-				943998402654F1C90073DBB9 /* ManagerBookVC.m in Sources */,
+				7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */,
+				85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */,
+				4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2049944EA80F1C6A8D2A80C6E29742A9 /* PBXTargetDependency */ = {
+		0F36260B66731F09DB43AAD163881C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = EA0B0DE54753FF5DA8ACDF20718B82F6 /* PBXContainerItemProxy */;
+		};
+		395C00FC36AFD87D48ABD99C9A97B427 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ManagerBook;
 			target = 2D2FB2C5EA1737DCFCCAEA7FD178536D /* ManagerBook */;
-			targetProxy = 55E376046E385ADC3FE29FCCD88B4003 /* PBXContainerItemProxy */;
+			targetProxy = 83B79F1A8CCFD5523972EB153CA47B66 /* PBXContainerItemProxy */;
 		};
-		5B7AD94DD701931CFD2EEFB6D84DE8AB /* PBXTargetDependency */ = {
+		7A0F97C1B530BEEEDE5A3DD81324D176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = B362C1BBF2755D92C4F9A4FDFFFDD1FA /* PBXContainerItemProxy */;
+		};
+		97D16FF41BD1C4D07D34C083CE5C9F8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ManagerBook_Example";
 			target = E68D30C8655C89139922150E2C2457E0 /* Pods-ManagerBook_Example */;
-			targetProxy = FDB9217890C95F14C9896DA444DBF58B /* PBXContainerItemProxy */;
+			targetProxy = 2663CF73F238A5525AE938070C640069 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CEE2D5D080A14C8943E59E1F3E40D5C /* Debug */ = {
+		1C04C08215320E43F84D93E62D822E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F939F6CD6FA56282CFE6E998A4425A3 /* ManagerBook.debug.xcconfig */;
+			baseConfigurationReference = AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,14 +569,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ManagerBook/ManagerBook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ManagerBook/ManagerBook-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ManagerBook/ManagerBook.modulemap";
-				PRODUCT_MODULE_NAME = ManagerBook;
-				PRODUCT_NAME = ManagerBook;
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -439,39 +586,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1FCDF21DCE7C720E10CF36E1EBD5A429 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB060EB428C2C8ABB7E474B2C4A5EAC7 /* Pods-ManagerBook_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -539,9 +653,104 @@
 			};
 			name = Debug;
 		};
-		2A3342172EFD18C926A0D4798B3EC7CB /* Release */ = {
+		6B5E1199FE73079C4F1238078DAE20B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54D59711B53FAF26F7794D085DEE3178 /* ManagerBook.release.xcconfig */;
+			baseConfigurationReference = 5FD353E863ABFFC8AE1FA4EBE5E19661 /* Pods-ManagerBook_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8ADC105A46A209554EA514484637CE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB060EB428C2C8ABB7E474B2C4A5EAC7 /* Pods-ManagerBook_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DBBE40A19BB039E7B8CFF101C705083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCF78451357014DFF4D2346A25A38F9 /* ManagerBook.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ManagerBook/ManagerBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ManagerBook/ManagerBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ManagerBook/ManagerBook.modulemap";
+				PRODUCT_MODULE_NAME = ManagerBook;
+				PRODUCT_NAME = ManagerBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1F448F7B0D6C8D86267626701BB215B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3972C90234D6B49C543AB5DAE75C522C /* ManagerBook.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -690,17 +899,17 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		EFD23C92799379187F1A8D1A784201B7 /* Debug */ = {
+		D15E7D1098E5B446585892AE063F6A7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FD353E863ABFFC8AE1FA4EBE5E19661 /* Pods-ManagerBook_Example.debug.xcconfig */;
+			baseConfigurationReference = B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -709,28 +918,37 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0461E8569F6ED4D4AB9A696BE7C0D2C3 /* Build configuration list for PBXNativeTarget "ManagerBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBBE40A19BB039E7B8CFF101C705083 /* Debug */,
+				B1F448F7B0D6C8D86267626701BB215B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -740,20 +958,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53F3F2D6F8D2BBEA19EB5ACD7E8F5F5A /* Build configuration list for PBXNativeTarget "ManagerBook" */ = {
+		97A4AA9351279596317145193CFACA3E /* Build configuration list for PBXNativeTarget "Pods-ManagerBook_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CEE2D5D080A14C8943E59E1F3E40D5C /* Debug */,
-				2A3342172EFD18C926A0D4798B3EC7CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		63E79601B991CE8C13E64F7DCB0E1B75 /* Build configuration list for PBXNativeTarget "Pods-ManagerBook_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFD23C92799379187F1A8D1A784201B7 /* Debug */,
-				1FCDF21DCE7C720E10CF36E1EBD5A429 /* Release */,
+				6B5E1199FE73079C4F1238078DAE20B1 /* Debug */,
+				8ADC105A46A209554EA514484637CE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -763,6 +972,15 @@
 			buildConfigurations = (
 				C871195494DEC2A791574BC0043CB2E0 /* Debug */,
 				C27C9C63E6049105B1B3AA4D71536ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C04C08215320E43F84D93E62D822E73 /* Debug */,
+				D15E7D1098E5B446585892AE063F6A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

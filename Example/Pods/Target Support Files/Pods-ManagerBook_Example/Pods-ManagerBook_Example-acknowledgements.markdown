@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## ManagerBook
 
 Copyright (c) 2021 wenchao8023 <15629120502@163.com>

@@ -1,15 +1,22 @@
 PODS:
-  - ManagerBook (0.1.0)
+  - CTMediator (46)
+  - ManagerBook (0.1.2):
+    - CTMediator
 
 DEPENDENCIES:
   - ManagerBook (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
 
 EXTERNAL SOURCES:
   ManagerBook:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ManagerBook: 4ec2734ff0862fa4030e8bf633e7e3fcfed654b4
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  ManagerBook: 579b781a964416bbd4c51fef53c18745b4d9e4b4
 
 PODFILE CHECKSUM: 0ce373fbc71f5aafe51f14bd055ca8655b5f2166
 

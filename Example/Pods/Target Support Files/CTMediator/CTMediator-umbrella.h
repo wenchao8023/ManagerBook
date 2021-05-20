@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "ManagerBookVC.h"
+#import "CTMediator+HandyTools.h"
+#import "CTMediator.h"
 
-FOUNDATION_EXPORT double ManagerBookVersionNumber;
-FOUNDATION_EXPORT const unsigned char ManagerBookVersionString[];
+FOUNDATION_EXPORT double CTMediatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char CTMediatorVersionString[];
 
