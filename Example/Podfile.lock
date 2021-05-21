@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (46)
-  - ManagerBook (0.1.2):
+  - ManagerBook (0.1.3):
     - CTMediator
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  ManagerBook: 579b781a964416bbd4c51fef53c18745b4d9e4b4
+  ManagerBook: edba8341fe49d3a587c9e22aad87876b30e3f730
 
 PODFILE CHECKSUM: 0ce373fbc71f5aafe51f14bd055ca8655b5f2166
 

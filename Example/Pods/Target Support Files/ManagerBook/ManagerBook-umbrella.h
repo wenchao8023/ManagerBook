@@ -11,6 +11,7 @@
 #endif
 
 #import "ManagerBookVC.h"
+#import "Target_BookShopDependency.h"
 
 FOUNDATION_EXPORT double ManagerBookVersionNumber;
 FOUNDATION_EXPORT const unsigned char ManagerBookVersionString[];
