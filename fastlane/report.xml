@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00236">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.084574">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: git_pull" time="2.829597">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.004135">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: cocoapods" time="7.216816">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
