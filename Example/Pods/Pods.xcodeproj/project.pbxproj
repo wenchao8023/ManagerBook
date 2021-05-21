@@ -22,6 +22,8 @@
 		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */; };
 		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */; };
 		929ADE356368ED871262A451E15CFB96 /* Pods-ManagerBook_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EABCF779957A53DE2C6CAB858B2C68 /* Pods-ManagerBook_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948912C2265742E9005F896B /* Target_BookShopDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 948912C0265742E9005F896B /* Target_BookShopDependency.h */; };
+		948912C3265742E9005F896B /* Target_BookShopDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = 948912C1265742E9005F896B /* Target_BookShopDependency.m */; };
 		9C634E10EA57A0192CA499C979A9F776 /* ManagerBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30870EDF9BFA9487DACE78750886C513 /* ManagerBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */; };
 		C0ACAE6707A1821884B8F778A8AED237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */; };
@@ -63,7 +65,7 @@
 /* Begin PBXFileReference section */
 		0BA6AF2F35EB7711657BDF2FE45F12B4 /* Pods-ManagerBook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ManagerBook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0BCF78451357014DFF4D2346A25A38F9 /* ManagerBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.debug.xcconfig; sourceTree = "<group>"; };
-		1B4784F50B8A05BF978A475FC0841102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B4784F50B8A05BF978A475FC0841102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1F4E4F73B945684373182F7960F060D5 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
 		2DA64171EC5142EABF9D3C353C94F100 /* Pods-ManagerBook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ManagerBook_Example.modulemap"; sourceTree = "<group>"; };
 		30870EDF9BFA9487DACE78750886C513 /* ManagerBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-umbrella.h"; sourceTree = "<group>"; };
@@ -76,26 +78,28 @@
 		59EABCF779957A53DE2C6CAB858B2C68 /* Pods-ManagerBook_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ManagerBook_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5CA8E88B1AC6941FE9D762BB4504DC00 /* Pods-ManagerBook_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ManagerBook_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5FD353E863ABFFC8AE1FA4EBE5E19661 /* Pods-ManagerBook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C11EA0F40A9312CDF915E9960D9208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		762FB5EC40484A6E05ACCC6FEC1D30C3 /* Pods-ManagerBook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Tests-Info.plist"; sourceTree = "<group>"; };
 		78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		7C5931825C8142F191D5A3CABD478858 /* ManagerBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
 		7D5C0F88F746EC664A65584FF505F32B /* Pods-ManagerBook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A3389E5E96A9804B1DC2989C34D2338 /* ManagerBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ManagerBook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A3389E5E96A9804B1DC2989C34D2338 /* ManagerBook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ManagerBook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		948912C0265742E9005F896B /* Target_BookShopDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_BookShopDependency.h; path = ManagerBook/Classes/Target_BookShopDependency.h; sourceTree = "<group>"; };
+		948912C1265742E9005F896B /* Target_BookShopDependency.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_BookShopDependency.m; path = ManagerBook/Classes/Target_BookShopDependency.m; sourceTree = "<group>"; };
 		9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		9AA1ED323EE4A881CAA65EC64F97290E /* Pods-ManagerBook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ManagerBook_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F80201BDDA6002A6968DFE29D3CF9EE /* ManagerBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ManagerBookVC.m; path = ManagerBook/Classes/ManagerBookVC.m; sourceTree = "<group>"; };
 		A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
 		A581F9630D6BD8245A438533D1A2ADEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		ADD12047090352DB7E165EC865B94371 /* Pods-ManagerBook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ManagerBook_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ManagerBook_Example.framework; path = "Pods-ManagerBook_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5651E3B3CF17DB710382CD6F65D6FF /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAA31F6C4DF68BBBE828A8005142525C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CAA31F6C4DF68BBBE828A8005142525C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CAF1573F6E927524BAE825B16CDB3DF8 /* Pods-ManagerBook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB060EB428C2C8ABB7E474B2C4A5EAC7 /* Pods-ManagerBook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ManagerBook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB1CF7D882F8F718FBE60002E6319586 /* Pods-ManagerBook_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ManagerBook_Tests.modulemap"; sourceTree = "<group>"; };
@@ -103,12 +107,12 @@
 		CDBC2FC8EA16487431848449A7AA81AF /* Pods-ManagerBook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ManagerBook_Example-umbrella.h"; sourceTree = "<group>"; };
 		CEBA47D0EB32D69A572F8BACBCBC78E5 /* ManagerBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ManagerBook-Info.plist"; sourceTree = "<group>"; };
 		DA05887DD81A9269BE1BE57A788DE327 /* Pods-ManagerBook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ManagerBook_Example-Info.plist"; sourceTree = "<group>"; };
-		E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ManagerBook_Tests.framework; path = "Pods-ManagerBook_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C149B0E194FD8A3464133F4F3C9798 /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		EA8F490FC2B0A3A5C47D6A98D08C0E15 /* ManagerBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ManagerBook.modulemap; sourceTree = "<group>"; };
 		EECFE3BB852BD01B64827C145EE967A8 /* Pods-ManagerBook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ManagerBook_Example-dummy.m"; sourceTree = "<group>"; };
 		FCDB2A52BF530C4376616756A788DF83 /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
-		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ManagerBook.framework; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF731AEEDB44A4A73B538DE0043B30F8 /* ManagerBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ManagerBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				9F80201BDDA6002A6968DFE29D3CF9EE /* ManagerBookVC.m */,
 				CB6ABA14F20834077B5A8EA32ACEBA0F /* Pod */,
 				908B583B4038093F22795E96B2B53B81 /* Support Files */,
+				948912C0265742E9005F896B /* Target_BookShopDependency.h */,
+				948912C1265742E9005F896B /* Target_BookShopDependency.m */,
 			);
 			name = ManagerBook;
 			path = ../..;
@@ -199,7 +205,6 @@
 				4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */,
 				BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -348,6 +353,7 @@
 			files = (
 				9C634E10EA57A0192CA499C979A9F776 /* ManagerBook-umbrella.h in Headers */,
 				542CCE7628EBF5524E1EB829893E4312 /* ManagerBookVC.h in Headers */,
+				948912C2265742E9005F896B /* Target_BookShopDependency.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 			files = (
 				016166E82C13D8488AD929674422FEF7 /* ManagerBook-dummy.m in Sources */,
 				22678AFB0569030AA0997391D21147E3 /* ManagerBookVC.m in Sources */,
+				948912C3265742E9005F896B /* Target_BookShopDependency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -899,8 +906,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

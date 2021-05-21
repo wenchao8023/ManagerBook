@@ -16,6 +16,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UILabel *bookNameLabel = [[UILabel alloc] init];
+    bookNameLabel.text = @"管理类书籍";
+    bookNameLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:bookNameLabel];
+    bookNameLabel.bounds = CGRectMake(0, 0, 150, 20);
+    bookNameLabel.center = self.view.center;
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*
