@@ -45,6 +45,7 @@ platform :ios do
 	desc "一次更新所有"
 	lane :update_all do
 		podspec_update(root_path, branch, component)
+		Dir.chdir(root_path)
 		tag_update(branch, component)
 		repo_update(root_path, spec_path, component)
 	end
