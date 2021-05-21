@@ -41,6 +41,8 @@ platform :ios do
 		spec = read_podspec
 		version = spec["version"]
 		sh("git add . && git commit -m \"tag #{version}\"")	
+		git_add
+		git_commit(message: "tag #{version}")
 		ensure_git_status_clean
 		push_to_git_remote
 		add_git_tag(tag: version)
@@ -53,7 +55,7 @@ platform :ios do
 		spec = read_podspec
 		version = spec["version"]
 		Dir.chdir(spec_path) do
-			sh("git pull")
+			git_pull
 			Dir.chdir("#{spec_path}/#{component}") do
 				sh("mkdir #{version}")
 				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
