@@ -9,7 +9,7 @@
 #import "ManagerBookVC.h"
 
 @implementation Target_BookShopDependency
-- (UIViewController *)Action_createHotBook {
+- (UIViewController *)Action_createHotBook:(NSDictionary *)params {
     return [ManagerBookVC new];
 }
 @end

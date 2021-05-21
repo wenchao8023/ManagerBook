@@ -1,5 +1,5 @@
 PODS:
-  - ManagerBook (0.1.5)
+  - ManagerBook (0.1.6)
 
 DEPENDENCIES:
   - ManagerBook (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ManagerBook: 229a0e2bef249b0ee802dd07020a0aec21ba268f
+  ManagerBook: 0caaaf649f888d05ac6b777d7adaae3439a89cee
 
 PODFILE CHECKSUM: f8db56c1ec81c01cdc5617d8c19323de44b64f6a
 
