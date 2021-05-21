@@ -6,7 +6,7 @@
 //
 
 #import "Target_BookShopDependency.h"
-#import "ManagerBookVC.m"
+#import "ManagerBookVC.h"
 
 @implementation Target_BookShopDependency
 - (UIViewController *)Action_createHotBook {

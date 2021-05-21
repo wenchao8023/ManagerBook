@@ -7,7 +7,7 @@
 //
 
 #import "XYViewController.h"
-
+#import <ManagerBook/Target_BookShopDependency.h>
 @interface XYViewController ()
 
 @end
@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UIViewController *vc = [[Target_BookShopDependency new] performSelector:@selector(Action_createHotBook)];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B51CB93401E9B98E893A1A /* Pods_ManagerBook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959048864A0C9B0F15E0291F /* Pods_ManagerBook_Example.framework */; };
-		38BAAB9226F7456BFA3A699F /* Pods_ManagerBook_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50208A582C13E5B7FC53174F /* Pods_ManagerBook_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9030471D7DF878C5B1B9085D /* libPods-ManagerBook_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4BEC1769C51CCA0FC27C05 /* libPods-ManagerBook_Tests.a */; };
+		DFA6B9A736C69EEC26EED3C2 /* libPods-ManagerBook_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 120FB2CDE021FDA220F072E7 /* libPods-ManagerBook_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0C29D1595BFBBEE15F9F3FAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		120FB2CDE021FDA220F072E7 /* libPods-ManagerBook_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManagerBook_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1927376143ACA8D48D139BF1 /* Pods-ManagerBook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerBook_Tests.release.xcconfig"; path = "Target Support Files/Pods-ManagerBook_Tests/Pods-ManagerBook_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		50208A582C13E5B7FC53174F /* Pods_ManagerBook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4BEC1769C51CCA0FC27C05 /* libPods-ManagerBook_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManagerBook_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ManagerBook_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerBook_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +62,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		959048864A0C9B0F15E0291F /* Pods_ManagerBook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManagerBook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A150EB9F6BD47C23C604C883 /* ManagerBook.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ManagerBook.podspec; path = ../ManagerBook.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A55FB40DEC279343226FDD66 /* Pods-ManagerBook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerBook_Example.release.xcconfig"; path = "Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B63A3501CA0B30CB7E1B54AF /* Pods-ManagerBook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerBook_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ManagerBook_Tests/Pods-ManagerBook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				06B51CB93401E9B98E893A1A /* Pods_ManagerBook_Example.framework in Frameworks */,
+				DFA6B9A736C69EEC26EED3C2 /* libPods-ManagerBook_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				38BAAB9226F7456BFA3A699F /* Pods_ManagerBook_Tests.framework in Frameworks */,
+				9030471D7DF878C5B1B9085D /* libPods-ManagerBook_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				959048864A0C9B0F15E0291F /* Pods_ManagerBook_Example.framework */,
-				50208A582C13E5B7FC53174F /* Pods_ManagerBook_Tests.framework */,
+				120FB2CDE021FDA220F072E7 /* libPods-ManagerBook_Example.a */,
+				5A4BEC1769C51CCA0FC27C05 /* libPods-ManagerBook_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				36784A3E697C254A55CB9722 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,26 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36784A3E697C254A55CB9722 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/ManagerBook/ManagerBook.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManagerBook.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManagerBook_Example/Pods-ManagerBook_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C25FA56E82CBFEFC340A1FAC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
