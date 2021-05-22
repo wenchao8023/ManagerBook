@@ -45,14 +45,15 @@ platform :ios do
 	desc "一次更新所有"
 	lane :update_all do
 		podspec_update(root_path, branch, component)
-		Dir.chdir(root_path)
+		sh("cd #{root_path}")
 		tag_update(branch, component)
 		repo_update(root_path, spec_path, component)
 	end
 
 
-	desc "更新 spec 版本号"
+	desc "更新组件 spec 版本号"
 	def podspec_update(root_path, branch, component)
+		UI.success("\n【Info】更新组件 spec 版本号\n")
 		ensure_git_branch(branch: "#{branch}")
 		git_pull
 		version = version_bump_podspec(path: "#{component}.podspec", bump_type: "patch")
@@ -62,6 +63,7 @@ platform :ios do
 
 	desc "更新组件 tag"
 	def tag_update(branch, component)
+		UI.success("\n【Info】更新组件 tag\n")
 		ensure_git_branch(branch: "#{branch}")
 		spec = read_podspec
 		version = spec["version"]
@@ -75,8 +77,9 @@ platform :ios do
 		UI.success("【Info】#{component}----tag: #{version}----#{branch}")
 	end
 
-	desc "推送 repo"
+	desc "更新组件 repo"
 	def repo_update(root_path, spec_path, component)
+		UI.success("\n【Info】更新组件 repo\n")
 		spec = read_podspec
 		version = spec["version"]
 		Dir.chdir(spec_path) do
