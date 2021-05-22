@@ -23,6 +23,8 @@
     [self.view addSubview:bookNameLabel];
     bookNameLabel.bounds = CGRectMake(0, 0, 150, 20);
     bookNameLabel.center = self.view.center;
+    
+    self.view.backgroundColor = UIColor.systemTealColor;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
